@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float p,l,L,K;
+    cout<<"hitung luas dan keliling persegi panjang dzaky"<<endl;
+    cout<<"Berapa Panjangnya?:";
+    cin>>p;
+    cout<<"Berapa Lebarnya?:";
+    cin>>l;
+    L=p*l;
+    K=(2*p)+(2*l);
+    cout<<"Keliling: "<<K<<"cm"<<endl;
+    cout<<"Luas: "<<L<<"cm2"<<endl;
+    return 0;
+}
